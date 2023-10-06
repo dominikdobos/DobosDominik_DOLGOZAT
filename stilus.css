@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	background-image: url("black.png");
+}
+
+.container {
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+}
+
+.elem {
+	overflow: auto;
+	background-color: RGB(200,200,200);
+	margin: 0;
+	padding: 10px;
+}
+
+.nav {
+	background-color: RGB(50,50,50);
+	text-decoration: none;
+	padding: 15px;
+	margin: 0;
+	padding-left: 0;
+}
+
+.nav a {
+	color: white;
+	margin: 0;
+	padding: 15px;
+	border: 1px solid white;
+}
+
+.nav a:hover {
+	background-color: orange;
+	color: white;
+}
+
+.nav a:active {
+	background-color: yellow;
+	color: white;
+}
+
+.fejlec img {
+	width: 100%;
+	margin: 0;
+}
+
+.fejlec {
+	margin: 0;
+}
+
+.lablec {
+	background-color: orange;
+	text-align: center;
+	margin-top: 0;
+}
+
+p {
+	text-align: justify;
+	font-size: 10px;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 15px;
+}
+
+#witcher {
+	float: right;
+	width: 20%;
+	height: 20%;
+}
+
+ul {
+	list-style-type: square;
+	font-size: 10px;
+}
